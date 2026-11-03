@@ -101,3 +101,23 @@ article:hover {
 #habilidades li:hover {
   color: #c76b9b;
 }
+
+/* Enlaces de contacto */
+#contacto a {
+  color: #c76b9b;
+  text-decoration: none;
+}
+
+/* Efecto al pasar el ratón por los enlaces */
+#contacto a:hover {
+  text-decoration: underline;
+  color: #a94f80;
+}
+
+/* Pie de página */
+footer {
+  background-color: #c76b9b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
