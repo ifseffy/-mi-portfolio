@@ -1,0 +1,103 @@
+/* Estilos generales de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5fa;
+  color: #333;
+  margin: 20px;
+}
+
+/* Cabecera principal */
+header {
+  background-color: #c76b9b;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Título principal */
+header h1 {
+  font-size: 32px;
+}
+
+/* Texto de presentación */
+header p {
+  font-size: 18px;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #a94f80;
+  padding: 15px;
+}
+
+/* Lista del menú */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+/* Enlaces del menú */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Efecto al pasar el ratón */
+nav a:hover {
+  color: #ffe0f0;
+}
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Estilos de las secciones */
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+/* Títulos de las secciones */
+h2 {
+  color: #c76b9b;
+  border-bottom: 2px solid #c76b9b;
+  padding-bottom: 10px;
+}
+
+/* Fotografía de perfil */
+.foto {
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* Proyectos realizados */
+article {
+  background-color: #fff5fa;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* Efecto al pasar el ratón por un proyecto */
+article:hover {
+  background-color: #fce3f0;
+}
+
+/* Lista de habilidades */
+#habilidades li {
+  padding: 8px;
+}
+
+/* Efecto al pasar el ratón por una habilidad */
+#habilidades li:hover {
+  color: #c76b9b;
+}
