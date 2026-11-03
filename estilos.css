@@ -121,3 +121,39 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Diseño adaptable para móviles */
+@media (max-width: 768px) {
+  /* Cabecera */
+  header {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  /* Menú de navegación */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* Contenido principal */
+  main {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* Secciones */
+  section {
+    padding: 15px;
+  }
+
+  /* Fotografía */
+  .foto {
+    max-width: 100%;
+    height: auto;
+  }
+}
